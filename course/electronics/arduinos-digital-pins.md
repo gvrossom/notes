@@ -1,6 +1,6 @@
-Back to [Electronics101](/wiki/course/electronics)  
-Previous: [Discover the tools](/wiki/course/electronics/get-to-know-the-tools)  
-Next: [Discover the analog pins of the Arduino](/wiki/course/electronics/arduinos-analog-pins)
+Back to [Electronics101](.)  
+Previous: [Discover the tools](./get-to-know-the-tools)  
+Next: [Discover the analog pins of the Arduino](./arduinos-analog-pins)
 <hr>
 
 The **digital** pins of the Arduino can read only two states: when there is voltage on an input pin, and when there's not. They are somteimes called *binary*, for two states: **HIGH** and **LOW**. *High* means "there is voltage" and *low* "there is no voltage".
@@ -17,8 +17,8 @@ In this lesson we will discover how to use the *digital* pins of the Arduino.
 We will need:
 
 * a switch
-* an LED
-* a 220 0hm resistor
+* Three LEDs
+* Three 220 0hm resistors
 * a 10 KILOhm resistor
 
 [Check out the Spacechip Interfase Schematic view]

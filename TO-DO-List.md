@@ -1,6 +1,6 @@
 # Let's get workin
 
-! one address several users!
+
 
 ## In production
 
@@ -13,6 +13,9 @@
 ## In development
 
 * [waliki](https://github.com/mgaitan/waliki/blob/master/docs/boxes.rst) as a (dummy) CMS (In progress)
-* develop the "P/T" app (In progress)
+* develop the "Tutorial" app (In progress)
+* develop the project/program app
+* add forms to homepage
+* add email backend
 
 [[root]]

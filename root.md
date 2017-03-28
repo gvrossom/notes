@@ -1,5 +1,7 @@
 This wiki serves as a virtual support and documentation for our [[courses]].  
-Whether it is robotics, programming, engineering or science, documentation is a must-write and -read.
+Whether it is robotics, programming, engineering or science, documentation is a must-write and -read.  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ant_(Jacob_Eckert).svg/2000px-Ant_(Jacob_Eckert).svg.png" style=" max-width: 100px; max-length: 100px">
+Here is a [[demo]] page for demo users to see how the app works.
 <hr>
 
 ## What is a wiki and why use one?
@@ -11,8 +13,6 @@ Here is the definition from [wikipedia](https://en.wikipedia.org){:target="_blan
 
 Practically speaking, a wiki engine is a system of pages (like a book) organized as a tree.  
 As it is virtual, there is no limit to the amount of pages we can create.
-
-Here is a [[demo]] page that demo users can edit.
 
 One of the particularity of the web is that it is a collection of pages linked to each other. 
 That is quite powerful in a wiki. That means that we can relate different topics or subjects together. 

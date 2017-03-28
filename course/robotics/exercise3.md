@@ -21,3 +21,23 @@ turn 90 degrees, repeat 4 times, and return to starting position
 
 
 [[root]]
+
+##Programming construct LOOP
+A loop basically repeats a list of actions embeded in loop until it reaches an end condition.
+Very useful whenever a repeatable pattern is inserted in program.
+
+
+##Theory
+How to calculate the rotation of wheel in degrees from center of axle?
+
+diagram  W-----*-----W
+
+measure distance between center of axle and wheel, length = L
+
+degree of desired rotation, angle = T
+
+radius of wheel = r
+
+Formulae: d = number of degrees of wheel rotation
+
+d = ( T * L ) / r 
