@@ -1,10 +1,11 @@
 This wiki serves as a virtual support and documentation for our [[courses]].
 
-Contributors can head to the [How-to?](howto) section for more in depth information on how to, well, contribute.
-
 Whether it is robotics, programming, engineering or science, documentation is a must-write and -read.  
-After all, writing is a good exercice that forces you to structure you ideas. 
+After all, writing is a good exercice that forces you to structure you ideas.
 Reading is a an essential part of learning how to write. Therefore, take the time.
+
+
+Contributors can head to the [How-to?](howto) section for more in depth information on how to, well, contribute.
 
 To know more about the project: read the [[Ants]] page.  
 Feedbacks, question? Right [this way](/#contact).
