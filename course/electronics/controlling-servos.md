@@ -1,7 +1,13 @@
-Back to [Electronics101](/wiki/course/electronics) / Making small motions with servos
+Back to [Electronics101](.)  
+Previous: [pulse width modulation](./pulse-width-modulation)  
+Next: [Controlling motors](./controlling-motors)  
 <hr>
 
+#### Making small motions with servos
+
 A *servo* (short for servomechanism) contains an electric motor that can be commanded to rotate to a specific angular position. For example, you might use a servo to control the steering of a remote control car, the arm of a robot, etc.
+
+Servos usually only rotate 180 degrees.
 
 ### selecting a servo
 
@@ -22,20 +28,27 @@ Here, the pulse is connected to the digital pin 4:
 
 ```
 #include <Servo.h>
-Servo myservo
+Servo myservo;
+int const potPin = A0;
+int potVal;
+int angle;
 
 void setup()
 {
-  my servo.attach(4); // control pin on digital four
+  my servo.attach(9); // control pin on digital four
+  Serial.begin(9600);
 }
 
 void loop()
 {
-  myservo.write(180);
-  delay(1000);
-  myservo.write(90);
-  delay(1000);
-  myservo.write(0);
-  delay(1000);
+  potVal = analogRead(potPin);
+  Serial.print("potVal: ");
+  Serial.print(potVal);
+  
+  angle = map(potVal, 0, 1023, 0, 179);
+  Serial.print(", angle: ");
+  Serial.println(angle);
+  myservo.write(angle);
+  delay(15);
 }
 ```
