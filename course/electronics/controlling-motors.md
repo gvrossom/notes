@@ -1,5 +1,9 @@
-Small motors are used for many applications, from fans to model railroads.
+Back to [Electronics101](.)  
+Previous: [Controlling Servos](./controlling-servos)  
+Next: [The final project](./tank-robot)  
+
 <hr>
+Small motors are used for many applications, from fans to model railroads.
 
 To control our motor, we'll use an `IRF520` **transistor**.
 
@@ -30,3 +34,24 @@ The following hardware is required:
 * a separate power source
 * connecting wires
 * an arduino UNO
+
+```
+const int switchPin = 2;
+const int motorPin = 9;
+int switchState = 0;
+
+void setup() {
+  pinMode(motorPin, OUTPUT);
+  pinMode(switchPin, INPUT);
+}
+
+void loop(){
+  switchState = digitalRead(switchPin);
+  if (switchState == HIGH) {
+    digitalWrite(motorPin, HIGH);
+  }
+  else {
+    digitalWrite(motorPin,LOW);
+  }
+}
+```
